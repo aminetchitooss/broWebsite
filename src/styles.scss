@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+:root {
+  background-color: #444;
+  color: white;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+* {
+  -webkit-overflow-scrolling: touch !important;
+  box-sizing: border-box;
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  &:active,
+  &:focus {
+    outline: none !important;
+  }
+}
